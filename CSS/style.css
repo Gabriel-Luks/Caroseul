@@ -1,0 +1,26 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.owl-carousel img{
+ height: 400px;
+ 
+}
+
+#botao_anterior, #botao_proximo{ /*Dá pra colocar 2 class ou id na mesma linha para editar*/
+
+    position: absolute; /*Jogou pra cima, porém oque decidiu o quão pracisa foi o "top"*/
+    top: 175px; /*Decidiu a posição deles em relação ao topo*/
+
+}
+
+/*Decidiu a posição de cada um deles*/
+
+#botao_anterior{
+    left: 35px;
+}
+
+#botao_proximo{
+    right: 35px;
+}
